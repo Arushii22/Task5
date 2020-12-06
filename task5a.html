@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spacing function</title>
+  <style media="screen">
+    body {
+      background-color: #e4e4e4;
+    }
+
+    h1 {
+      color: #4ECCA3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Javascript prototype method named bespacify which extends string to allow spaces
+ between each character of a string.</h1>
+<script type="text/javascript">
+String.prototype.bespacify = function() {
+	return this.split('').join(" ");
+};
+document.write("hello".bespacify());
+
+
+</script>
+</body>
+</html>
